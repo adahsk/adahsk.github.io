@@ -1,0 +1,60 @@
+[class*="pol"] {
+    /*fill:#FFF7B2 ;*/
+    stroke:red;
+    stroke-width: 0.3px;
+    cursor:pointer;
+}
+
+
+  .pol:hover {
+    fill:orange ;    
+}
+
+
+.tooltip {
+    fill:black;
+    font-size: 20px;
+}
+
+/*g.pol path:hover*/
+
+/*g .pol:hover   ako maknemo fill iz svg*/
+
+@charset "UTF-8";
+.fil14 {fill:#FFF7B2}
+.fil13 {fill:#FFF383}
+.fil7 {fill:#FFE497}
+.fil4 {fill:#FEDEA9}
+.fil8 {fill:#FACEB4}
+.fil16 {fill:#F5B2B6}
+.fil5 {fill:#F5B2B6}
+.fil2 {fill:#F39CA3}
+.fil0 {fill:#F0879E}
+.fil6 {fill:#E5E89B}
+.fil18 {fill:#D8E6B1}
+.fil11 {fill:#DAE49B}
+.fil15 {fill:#D2CDE7}
+.fil12 {fill:#CEE0A6}
+.fil1 {fill:#CFDF9B}
+.fil3 {fill:#C1DDB0}
+.fil9 {fill:#C4D985}
+.fil10 {fill:#A2D9F7}
+.fil17 {fill:#61A375}
+
+#Županijski_centri, #Jezera, #Veći_gradovi {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Jezera {
+    stroke-width: 0.5px;
+    font-style: italic;   
+}
+
+#Veći_gradovi {
+    fill: #2B2A29;
+}
+
+#Veći_gradovi text{
+    fill: #2B2A29;
+}
+

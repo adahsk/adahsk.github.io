@@ -1,0 +1,15 @@
+{
+  "name": "zupanije",
+  "version": "1.0.0",
+  "description": "Izrada interaktivne karte HR zupanija",
+  "main": "zupanije.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adriana Tanfara",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "svg-pan-zoom": "^3.6.0"
+  }
+}

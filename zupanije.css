@@ -1,0 +1,193 @@
+body, html {
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  position:fixed;
+ }
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Ako ga zelim ograničiti na tipičnu širinu ekrana
+.container-fluid {
+  max-width: 1366px;
+  margin: 0px auto; - centriran u sredinu
+}
+*/
+
+.container-fluid {
+  height:100vh;
+}
+
+
+.header{
+  min-height: 60px;
+}
+
+.footer{
+  min-height: 30px;
+}
+
+.header, .footer{
+  background: #062352;
+  color: white;
+}
+
+.sidebar{
+  background: #062352;
+  color: white;
+  padding-top:100px;
+  
+}
+
+.content{
+  background: #86afd8;
+  position:relative; 
+}
+
+
+.sidebar, .content{
+  height:91vh;
+}
+
+
+object {
+  position: absolute;
+  top:0px;
+  bottom: 0px; 
+  left: 0px;
+  right: 0px;
+  width:100%;
+  height: 100%; 
+ /* border: 1px solid red;*/
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0px;  
+}
+
+.dropdbtn, .btn {
+  display: block;
+  width:100%;
+  padding: 10px;
+  cursor: pointer;
+  background:#22457c;
+  color: white;
+  border:none;
+  font: 20px 'Times New Roman', Times, serif;
+  text-align: left;
+}
+
+.dropdbtn:hover {
+  background-color: #2980B9;
+}
+
+.dropdbtn:after, .btn:after {
+  content: url(Slike/arrow-set/svg/download-12.svg);
+  float: right;
+  width: 14px;
+  height: 16px;
+  margin: 1px 0 0 10px;
+  }
+
+.dropdbtn:before {
+  content: url(Slike/arrow-set/svg/layers.svg);
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 1px 0 0 1px;
+  margin-right: 15px;
+  }
+
+.btn:before {
+  content: url(Slike/arrow-set/svg/draw.svg);
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 1px 0 0 1px;
+  margin-right: 15px;
+}
+
+.dropdown-content input {
+  margin: 10px;
+  }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+}
+
+.show {
+  display:block;
+}
+
+p {
+  color: white
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px){ 
+   div.sidebar {
+    display: none;
+        }
+
+    .header{
+     min-height: 40px;
+         }
+              
+    .footer{
+     min-height: 15px;
+         }         
+  } 
+  
+  
+@media only screen and (max-width:767px) and (orientation : landscape){ 
+  div.sidebar {
+    display: none;
+         }
+
+  .header{
+    min-height: 40px;
+          }
+        
+  .footer{
+    min-height: 15px;
+          }      
+   }
+
+
+   #wrap {
+    position: relative;
+  }
+
+  /* koristi se kad je tooltip u html kao div
+   #nazivi {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    //background: white;
+    //border: 1px solid;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+    pointer-events: none;
+    left:0px;
+    top:0px;
+    };
+*/
