@@ -41,20 +41,3 @@
 .fil10 {fill:#A2D9F7}
 .fil17 {fill:#61A375}
 
-#Županijski_centri, #Jezera, #Veći_gradovi {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-#Jezera {
-    stroke-width: 0.5px;
-    font-style: italic;   
-}
-
-#Veći_gradovi {
-    fill: #2B2A29;
-}
-
-#Veći_gradovi text{
-    fill: #2B2A29;
-}
-
